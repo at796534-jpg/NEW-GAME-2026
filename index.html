@@ -1384,13 +1384,13 @@ body.darktheme ::-webkit-scrollbar-thumb:hover {background-color: #aaaaaa;backgr
     var vid = mapping[currentPath].VID;
 
     // --- LA SEULE CONFIGURATION QUI FONCTIONNE SUR CE TYPE DE TEMPLATE ---
-    // Nous forçons la playlist globale à être uniquement la vidéo actuelle.
+    // Nous forÃ§ons la playlist globale Ã  Ãªtre uniquement la vidÃ©o actuelle.
     // Cela neutralise les recommandations "Discovery" de Viously.
     window.viously_params = window.viously_params || {};
     window.viously_params.playlist = [vid];
 
     // Construction HTML
-    // On ajoute data-playlist avec uniquement l'ID de la vidéo en cours.
+    // On ajoute data-playlist avec uniquement l'ID de la vidÃ©o en cours.
     var playerHtml = '<div class="vsly-player" ' +
       'id="' + vid + '" ' +
       'data-template="PVKlzNJSOjifd" ' +
